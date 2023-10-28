@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AddNums</string>
+    <string name="header">Сложение чисел</string>
+    <string name="first_summand">первое число</string>
+    <string name="second_summand">второе число</string>
+    <string name="sum">"расчитать "</string>
+</resources>
