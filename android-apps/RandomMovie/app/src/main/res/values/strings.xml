@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RandomMovie</string>
+    <string name="startMovie">Показать фильм</string>
+    <string name="movieTextView">Нажмите кнопку для получения фильма</string>
+    <string name="nextMovie">Следующий фильм</string>
+    <string-array name="movies">
+        <item>Война бесконечноси</item>
+        <item>Властелин колец</item>
+        <item>Бегущий по лезвию</item>
+        <item>Драйв</item>
+        <item>Форсаж</item>
+    </string-array>
+</resources>
