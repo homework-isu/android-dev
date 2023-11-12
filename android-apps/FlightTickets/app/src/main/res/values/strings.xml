@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FlightTickets</string>
+    <string name="cityWhere">куда</string>
+    <string name="cityFrom">откуда</string>
+    <string name="dateDeparture">дата отлёта</string>
+    <string name="dateArrival">дата прилёта</string>
+    <string name="adults">Взросыле</string>
+    <string name="children">Дети</string>
+    <string name="find">Найти</string>
+    <string name="babies">Младенцы</string>
+    <string name="title">Поиск авиабилетов</string>
+</resources>
