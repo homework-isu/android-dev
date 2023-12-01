@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Guess number game</string>
+    <string name="startGameMessage">Начать игру</string>
+    <string name="unputNumberHint">Введите число</string>
+    <string name="inputMinValueHint">Введите нижнюю границу</string>
+    <string name="inputMaxValueHint">Введите верхнюю границу</string>
+    <string name="lowerMessage">меньше</string>
+    <string name="isOkMessage">это</string>
+    <string name="bigerMessage">больше</string>
+    <string name="againMessage">заново</string>
+</resources>

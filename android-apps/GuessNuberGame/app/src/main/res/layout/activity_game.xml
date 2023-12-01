@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="20dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/stepsToWin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/appName"
+        android:textAlignment="center">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/stepsToWin"
+        android:textAlignment="center">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/lower"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.3"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/number"
+        android:text="@string/lowerMessage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/isOk"
+
+        android:layout_marginTop="10dp">
+    </Button>
+
+    <Button
+        android:id="@+id/isOk"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.3"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/number"
+        android:text="@string/isOkMessage"
+        app:layout_constraintStart_toEndOf="@id/lower"
+        app:layout_constraintEnd_toStartOf="@+id/bigger"
+
+        android:layout_marginTop="10dp">
+    </Button>
+
+    <Button
+        android:id="@+id/bigger"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.3"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/number"
+        android:text="@string/bigerMessage"
+        app:layout_constraintStart_toEndOf="@+id/isOk"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="10dp">
+    </Button>
+
+    <Button
+        android:id="@+id/again"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.5"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/isOk"
+        android:text="@string/againMessage"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+
+        android:layout_marginTop="30dp">
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
